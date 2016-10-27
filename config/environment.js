@@ -23,6 +23,11 @@ module.exports = function(environment) {
     }
   };
 
+  ENV.googleMap = {'apiKey': 'AIzaSyAa7bda8_Lwt0EjhZX4OMHGQzoegGTGglY'};
+
+
+
+
   if (environment === 'development') {
     // ENV.APP.LOG_RESOLVER = true;
     // ENV.APP.LOG_ACTIVE_GENERATION = true;

@@ -11,6 +11,8 @@ Router.map(function() {
 
   this.route('adventure-analytics');
   this.route('travel-log');
+  this.route('logged-adventure');
+
 });
 
 export default Router;

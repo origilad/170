@@ -1,7 +1,12 @@
-POOOP
 
-{{#link-to "map"}}Map{{/link-to}}
-{{#link-to "adventure-analytics"}}Adventure Analytics{{/link-to}}
-{{#link-to "travel-log"}}Travel Log{{/link-to}}
+
+    {{select-picker content=singleContent
+    selection=singleChoice
+    action=(action "setSingleChoice")
+    optionLabelPath="content.label"
+    optionValuePath="content.value"}}
+
+
+
 
 {{yield}}
