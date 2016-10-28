@@ -1,7 +1,14 @@
 {{#link-to "map"}}BACK{{/link-to}}
 <h1>THIS IS THE PAGE FOR A LOGGED ADVENTURE!</h1>
 <img src="/assets/images/giesel.png">
-<br><br>
+<br><br><br>
+{{star-rating
+readOnly=isNotEditing
+onClick = (action 'logStars')
+rating=starRating}}
+<br>
+<br>
+<br>
 {{#if isEditing}}
     <button {{action 'toggleEdit'}}>DONE</button>
 {{else}}
