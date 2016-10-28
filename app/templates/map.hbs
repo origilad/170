@@ -1,4 +1,9 @@
 {{navigation-bar singleChoice=menuOption}}
 <h1>THIS IS THE MAP PAGE</h1>
+{{#g-map lat=37.7833 lng=-122.4167 zoom=12 as |context|}}
+    {{g-map-marker context lat=37.7933 lng=-122.4167 onClick="handleClick"}}
+{{/g-map}}
+
+{{#link-to "log-new-adventure"}}LOG NEW ADVENTURE{{/link-to}}
 
 {{outlet}}

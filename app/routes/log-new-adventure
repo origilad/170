@@ -1,0 +1,4 @@
+{{#link-to "map"}}BACK{{/link-to}}
+<h1>THIS IS THE PAGE FOR A WHEN YOU WANT TO LOG A NEW ADVENTURE!</h1>
+
+{{outlet}}

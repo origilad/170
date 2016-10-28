@@ -12,6 +12,7 @@ Router.map(function() {
   this.route('adventure-analytics');
   this.route('travel-log');
   this.route('logged-adventure');
+  this.route('log-new-adventure');
 
 });
 
