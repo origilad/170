@@ -23,7 +23,14 @@ module.exports = function(environment) {
     }
   };
 
-  ENV.googleMap = {'apiKey': 'AIzaSyAa7bda8_Lwt0EjhZX4OMHGQzoegGTGglY'};
+  ENV['g-map'] = {
+    exclude: true,
+    libraries: ['places', 'geometry'],
+    key: 'AIzaSyAVUAqpG5IF5BAfd_VqOhO07VSkxxeT41k',
+    version: '3.26',
+    language: 'ru',
+    protocol: 'https'
+  };
 
 
 
