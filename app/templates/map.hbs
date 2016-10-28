@@ -1,5 +1,10 @@
 {{navigation-bar singleChoice=menuOption}}
 <h1>THIS IS THE MAP PAGE</h1>
+currently having trouble with google maps - our api key is acting funky. Will talk with google for support.
+<br>
+The map is supposed to show an icon, which when clicked, would go to this {{#link-to "logged-adventure"}}page{{/link-to}}
+
+
 {{#g-map lat=37.7833 lng=-122.4167 zoom=12 as |context|}}
     {{g-map-marker context lat=37.7933 lng=-122.4167 onClick="handleClick"}}
 {{/g-map}}
