@@ -1,20 +1,37 @@
 {{#link-to "map"}}BACK{{/link-to}}
 <h1>THIS IS THE PAGE FOR A LOGGED ADVENTURE!</h1>
 <img src="/assets/images/giesel.png">
-<br>
+<br><br>
+{{#if isEditing}}
+    <button {{action 'toggleEdit'}}>DONE</button>
+{{else}}
+    <button {{action 'toggleEdit'}}>EDIT</button>
+{{/if}}
 
-STATS
-<br>
-First visit - 10/18/15
-<br>
+{{#if isEditing}}
+    <br>
+    STATS
+    <br>
+    First visit - {{input value=firstVisit}}
+    <br>
+    Time spent - {{input value=hoursSpent}}
+    <br>
+    Times visited - {{input value=timesVisited}}
+    <br>
+    # of Others visited - {{input value=othersVisited}}
+{{else}}
+    <br>
+    STATS
+    <br>
+    First visit - {{firstVisit}}
+    <br>
+    Time spent - {{hoursSpent}}
+    <br>
+    Times visited - {{timesVisited}}
+    <br>
+    # of Others visited - {{othersVisited}}
+{{/if}}
 
-Time spent - 4000 hours
-<br>
-
-Times visited - 500 times
-<br>
-
-# of Others visited - 524230
 <br>
 <br>
 <br>
