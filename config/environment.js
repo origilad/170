@@ -24,8 +24,8 @@ module.exports = function(environment) {
   };
 
   ENV['g-map'] = {
-    exclude: false,
-    libraries: ['places', 'geometry'],
+    exclude: true,
+    libraries: ['places'],
     key: 'AIzaSyCBnH3016_e88Fae7ptUAK-EhUbyFBpMPk',
     version: '3.26',
     language: 'ru',
