@@ -1,0 +1,13 @@
+{
+	"version": 3,
+	"sourceRoot": "/Users/OriGilad/School/CSE170/ember-170-Spots/app/styles",
+	"file": "ember-170-spots.css",
+	"sources": [
+		"../../sass_compiler-input_base_path-7dJsGdni.tmp/0/app/styles/app.scss"
+	],
+	"sourcesContent": [
+		".g-map-canvas {\n  width: 600px;\n  height: 400px;\n}\n"
+	],
+	"mappings": "AAAA,AAAA,aAAa,CAAC;EACZ,KAAK,EAAE,KAAM;EACb,MAAM,EAAE,KAAM,GACf",
+	"names": []
+}

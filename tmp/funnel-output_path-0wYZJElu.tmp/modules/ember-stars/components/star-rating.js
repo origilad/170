@@ -1,0 +1,1 @@
+/Users/OriGilad/School/CSE170/ember-170-Spots/tmp/funnel-input_base_path-6p9fNl79.tmp/0/components/star-rating.js

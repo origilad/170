@@ -1,0 +1,1 @@
+/Users/OriGilad/School/CSE170/ember-170-Spots/tmp/creator-output_path-1shADt0t.tmp/version.js

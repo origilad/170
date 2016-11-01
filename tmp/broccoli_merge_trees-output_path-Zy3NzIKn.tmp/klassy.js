@@ -1,0 +1,1 @@
+/Users/OriGilad/School/CSE170/ember-170-Spots/node_modules/ember-cli-qunit/node_modules/ember-qunit/node_modules/ember-test-helpers/node_modules/klassy/lib/klassy.js

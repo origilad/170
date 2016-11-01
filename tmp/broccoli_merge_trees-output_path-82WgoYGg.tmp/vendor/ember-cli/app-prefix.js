@@ -1,0 +1,1 @@
+/Users/OriGilad/School/CSE170/ember-170-Spots/tmp/config_replace-output_path-Tp06Ai8U.tmp/app-prefix.js

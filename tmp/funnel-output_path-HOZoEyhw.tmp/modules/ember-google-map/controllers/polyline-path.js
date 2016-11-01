@@ -1,0 +1,1 @@
+/Users/OriGilad/School/CSE170/ember-170-Spots/tmp/funnel-input_base_path-fgTubx9b.tmp/0/controllers/polyline-path.js

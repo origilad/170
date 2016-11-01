@@ -1,0 +1,1 @@
+/Users/OriGilad/School/CSE170/ember-170-Spots/tmp/funnel-input_base_path-24H8gR7O.tmp/0/utils/is-fastboot.js
